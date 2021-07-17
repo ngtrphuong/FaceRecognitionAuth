@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
     /// takes the front camera
     cameraDescription = cameras.firstWhere(
       (CameraDescription camera) =>
-          camera.lensDirection == CameraLensDirection.front,
+          camera.lensDirection == CameraLensDirection.back,
     );
 
     // start the services
