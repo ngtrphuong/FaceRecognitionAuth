@@ -102,8 +102,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: !loading
           ? SafeArea(
               child: Center(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                child: ListView(
+                  //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     Image(image: AssetImage('assets/logo.png')),
                     Container(
